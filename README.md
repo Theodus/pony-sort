@@ -1,12 +1,15 @@
 # pony-sort
 Common sorting algorithms for Pony
 
+pony-stable:
+`{ "type": "github", "repo": "theodus/pony-sort" }`
+
 ## The following algorithms are provided:
 
 ### Insertion Sort
 Although it is one of the elementary sorting algorithms with O(n^2) worst-case time, insertion sort is the algorithm of choice either when the data is nearly sorted (because it is adaptive) or when the problem size is small (because it has low overhead).
 
-[((https://www.toptal.com/developers/sorting-algorithms/insertion-sort)](https://www.toptal.com/developers/sorting-algorithms/insertion-sort)
+[(https://www.toptal.com/developers/sorting-algorithms/insertion-sort)](https://www.toptal.com/developers/sorting-algorithms/insertion-sort)
 
 ### Selection Sort
 Selection sort has the property of minimizing the number of swaps. In applications where the cost of swapping items is high, selection sort very well may be the algorithm of choice.
